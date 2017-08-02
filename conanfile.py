@@ -17,6 +17,7 @@ class BoostProperty_MapConan(ConanFile):
                       "Boost.Function/1.64.0@bincrafters/testing", \
                       "Boost.Iterator/1.64.0@bincrafters/testing", \
                       "Boost.Lexical_Cast/1.64.0@bincrafters/testing", \
+                      "Boost.Mpi/1.64.0@bincrafters/testing", \
                       "Boost.Mpl/1.64.0@bincrafters/testing", \
                       "Boost.Multi_Index/1.64.0@bincrafters/testing", \
                       "Boost.Optional/1.64.0@bincrafters/testing", \
@@ -27,8 +28,6 @@ class BoostProperty_MapConan(ConanFile):
                       "Boost.Type_Traits/1.64.0@bincrafters/testing", \
                       "Boost.Utility/1.64.0@bincrafters/testing"
 
-                      # "Boost.Mpi/1.64.0@bincrafters/testing", \ # This is a circular dependency , Needs discussion
-                      
                       #any6 assert1 bind3 concept_check5 config0 core2 function5 iterator5 lexical_cast8 mpi14 mpl5 multi_index12 optional5 serialization11 smart_ptr4 static_assert1 throw_exception2 type_traits3 utility5
                       
     def source(self):
