@@ -1,5 +1,6 @@
 from conans import ConanFile, tools, os
 
+
 class BoostProperty_MapConan(ConanFile):
     name = "Boost.Property_Map"
     version = "1.64.0"
