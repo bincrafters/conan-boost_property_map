@@ -8,7 +8,7 @@ class BoostProperty_MapConan(ConanFile):
     url = "https://github.com/bincrafters/conan-boost-property_map"
     description = "Please visit http://www.boost.org/doc/libs/1_65_1/libs/libraries.htm"
     license = "www.boost.org/users/license.html"
-    requires =  "Boost.Level14Group/1.65.1@bincrafters/testing"
+    requires =  "Boost.Level14Group/1.65.1@bincrafters/stable"
    
     def package_id(self):
         self.info.header_only()
