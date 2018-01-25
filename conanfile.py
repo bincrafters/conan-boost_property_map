@@ -8,7 +8,8 @@ class BoostProperty_MapConan(ConanFile):
     name = "boost_property_map"
     version = "1.66.0"
     url = "https://github.com/bincrafters/conan-boost_property_map"
-
+    author = "Bincrafters <bincrafters@gmail.com>"
+    exports = ["LICENSE.md"]
     lib_short_names = ["property_map"]
     is_in_cycle_group = True
     is_header_only = True
