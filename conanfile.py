@@ -8,7 +8,8 @@ class BoostProperty_MapConan(ConanFile):
     name = "boost_property_map"
     version = "1.66.0"
     url = "https://github.com/bincrafters/conan-boost_property_map"
-
+    author = "Bincrafters <bincrafters@gmail.com>"
+    exports = ["LICENSE.md"]
     lib_short_names = ["property_map"]
     is_in_cycle_group = True
     is_header_only = True
@@ -17,8 +18,8 @@ class BoostProperty_MapConan(ConanFile):
         self.info.header_only()
 
     requires = (
-        "boost_package_tools/1.66.0@bincrafters/testing",
-        "boost_level14group/1.66.0@bincrafters/testing"
+        "boost_package_tools/1.66.0@bincrafters/stable",
+        "boost_level14group/1.66.0@bincrafters/stable"
     )
 
     # BEGIN
@@ -26,7 +27,7 @@ class BoostProperty_MapConan(ConanFile):
     description = "Please visit http://www.boost.org/doc/libs/1_66_0"
     license = "BSL-1.0"
     short_paths = True
-    build_requires = "boost_generator/1.66.0@bincrafters/testing"
+    build_requires = "boost_generator/1.66.0@bincrafters/stable"
 
     def package_id(self):
         getattr(self, "package_id_additional", lambda:None)()
