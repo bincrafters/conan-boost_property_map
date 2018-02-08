@@ -1,8 +1,8 @@
 ## Package Status
 
-| Bintray | Windows | Linux | OSX |
-|---------|------------|--------|------|
-|[![Download](https://api.bintray.com/packages/bincrafters/public-conan/boost_property_map%3Abincrafters/images/download.svg) ](https://bintray.com/bincrafters/public-conan/boost_property_map%3Abincrafters/_latestVersion)|[![Build status](https://ci.appveyor.com/api/projects/status/github/bincrafters/conan-boost_property_map?svg=true)](https://ci.appveyor.com/project/BinCrafters/conan-boost-property_map)|[![Build Status](https://travis-ci.org/bincrafters/conan-boost_property_map.svg)](https://travis-ci.org/bincrafters/conan-boost_property_map)|N/A|
+| Bintray | Windows | Linux & macOS | 
+|:--------:|:---------:|:-----------------:|
+|[![Download](https://api.bintray.com/packages/bincrafters/public-conan/boost_property_map%3Abincrafters/images/download.svg) ](https://bintray.com/bincrafters/public-conan/boost_property_map%3Abincrafters/_latestVersion)|[![Build status](https://ci.appveyor.com/api/projects/status/github/bincrafters/conan-boost_property_map?svg=true)](https://ci.appveyor.com/project/BinCrafters/conan-boost-property-map)|[![Build Status](https://travis-ci.org/bincrafters/conan-boost_property_map.svg)](https://travis-ci.org/bincrafters/conan-boost_property_map)|
 
 ## Conan.io Information
 
