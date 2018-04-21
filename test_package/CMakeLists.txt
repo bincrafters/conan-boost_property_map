@@ -19,7 +19,6 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
   CONAN_PKG::boost_function
   CONAN_PKG::boost_iterator
   CONAN_PKG::boost_lexical_cast
-  CONAN_PKG::boost_mpi
   CONAN_PKG::boost_mpl
   CONAN_PKG::boost_multi_index
   CONAN_PKG::boost_optional
