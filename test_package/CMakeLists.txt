@@ -22,6 +22,7 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
   CONAN_PKG::boost_mpl
   CONAN_PKG::boost_multi_index
   CONAN_PKG::boost_optional
+  CONAN_PKG::boost_property_map
   CONAN_PKG::boost_serialization
   CONAN_PKG::boost_smart_ptr
   CONAN_PKG::boost_static_assert
