@@ -8,6 +8,7 @@ base = python_requires("boost_base/1.69.0@bincrafters/testing")
 
 class BoostProperty_MapConan(base.BoostBaseConan):
     name = "boost_property_map"
+    version = "1.69.0"
     url = "https://github.com/bincrafters/conan-boost_property_map"
     lib_short_names = ["property_map"]
     header_only_libs = ["property_map"]
